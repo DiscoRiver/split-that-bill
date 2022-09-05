@@ -6,6 +6,7 @@ ruby "3.1.1"
 gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 
 gem "bcrypt"
+gem "pg"
 gem 'bootstrap-sass'
 gem 'sass-rails'
 gem "puma", "~> 5.0"
