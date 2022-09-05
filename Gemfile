@@ -8,7 +8,6 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 gem "bcrypt"
 gem 'bootstrap-sass'
 gem 'sass-rails'
-gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
 gem "importmap-rails"
 gem "turbo-rails"
