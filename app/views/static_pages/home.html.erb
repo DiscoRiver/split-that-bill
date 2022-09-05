@@ -20,9 +20,9 @@
       <% p1=params[:income1].to_f/t*params[:split].to_f %>
       <% p2=params[:income2].to_f/t*params[:split].to_f %>
       <div class="container">
-        <%= p "Person #1 pays \n"+p1.round(2).to_s %>
+        <%= p "Person #1 pays \n"+p1.round(2).to_s+" ("+(p1.to_f/params[:income1].to_f*100).round(2).to_s+"%)" %>
         <div>
-          <%= p "Person #2 pays "+p2.round(2).to_s %>
+          <%= p "Person #2 pays "+p2.round(2).to_s+" ("+(p2.to_f/params[:income2].to_f*100).round(2).to_s+"%)" %>
         </div>
 
       </div>
