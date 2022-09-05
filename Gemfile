@@ -7,6 +7,7 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 
 gem "bcrypt"
 gem "pg"
+gem "jquery-turbolinks"
 gem 'bootstrap-sass'
 gem 'sass-rails'
 gem "puma", "~> 5.0"

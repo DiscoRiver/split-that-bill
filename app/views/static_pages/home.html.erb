@@ -1,12 +1,15 @@
 <h1>Split a bill based on an equal income percentage.</h1>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
+    <div class="alert alert-primary" role="alert">
+      You can specify any pay period you wish (monthly/yearly), but all values must be for the same period. For example, if the bill you're splitting is the monthly amount, enter your monthly income.
+    </div>
     <form name="split">
-      <p>Person #1's monthly income
+      <p>Person #1's income:
         <input type="text" name="income1"></p>
-      <p>Person #2's monthly income
+      <p>Person #2's income:
         <input type="text" name="income2"></p>
-      <p>Amount to split
+      <p>Amount to split:
         <input type="text" name="split"></p>
       <p><input type="submit" value="Split that bill!" onclick="split();return false" class="btn btn-primary"></p>
     </form>
@@ -24,7 +27,6 @@
         <div>
           <%= p "Person #2 pays "+p2.round(2).to_s+" ("+(p2.to_f/params[:income2].to_f*100).round(2).to_s+"%)" %>
         </div>
-
       </div>
   <% else %>
     <%= p "Enter only numbers." %>
