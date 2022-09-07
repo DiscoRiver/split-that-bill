@@ -12,7 +12,7 @@ gem 'bootstrap-sass'
 gem 'sass-rails'
 gem "puma", "~> 5.0"
 gem "importmap-rails"
-gem "turbo-rails"
+gem "turbo-rails", '~> 1.0.0'
 gem "stimulus-rails"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
