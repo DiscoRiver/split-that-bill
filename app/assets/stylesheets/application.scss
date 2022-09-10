@@ -48,6 +48,10 @@ $dark:          $gray-900;
   margin-bottom: 10px;
 }
 
+.ul-right{
+  float: right;
+}
+
 .alert-primary{
   background-color: $primary;
   color:$white;
@@ -55,7 +59,7 @@ $dark:          $gray-900;
 
 .alert-secondary{
   background-color: $gray-300;
-  border: 1px solid $blue;
+  border: 1px solid $primary;
 }
 
 .btn-primary{
